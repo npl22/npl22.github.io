@@ -101,6 +101,35 @@
       </ol>
     </section>
 
+    <section id="reviews">
+      <h2>Reviews</h2>
+      <form action="/reviews" method="post">
+        <label for="name">Name: </label>
+        <input id="name" type="text" name="name">
+
+        <label for="rating">Rating:</label>
+        <input type="radio" value="1" checked>1
+        <input type="radio" value="2">2
+        <input type="radio" value="3">3
+        <input type="radio" value="4">4
+        <input type="radio" value="5">5
+
+        <label for="expertise">Cooking Expertise:</label>
+        <select id="expertise" name="expertise">
+          <option value="" disabled selected>-- Select Cooking Expertise --</option>
+          <option value="Sometimes Cook">Sometimes Cook</option>
+          <option value="Cook Everyday">Cook Everyday</option>
+          <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+          <option value="Professional Chef">Professional Chef</option>
+        </select>
+
+        <label>Description:
+          <textarea name="description">
+          </textarea>
+        </label>
+      </form>
+    </section>
+
     <footer>
       <p>Original Recipe by <a href="http://toriavey.com/toris-kitchen/2010/07/summer-2010-travel-blog-shakshuka">Tori Avey</a></p>
     </footer>
