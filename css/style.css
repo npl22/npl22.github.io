@@ -38,3 +38,18 @@ header > img {
 ol li a {
   color: inherit;
 }
+
+input[type=radio] {
+  cursor: pointer;
+  outline: none;
+}
+
+input[type=submit] {
+  cursor: pointer;
+  outline: none;
+}
+
+select {
+  cursor: pointer;
+  outline: none;
+}
